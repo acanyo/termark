@@ -55,24 +55,40 @@ Current behavior and availability should be verified against the [desktop change
 | 平台 | 状态 | 入口 |
 | --- | --- | --- |
 | Windows | 支持 | [下载](https://www.termark.app/zh/#download) |
-| macOS | 支持 | [下载](https://www.termark.app/zh/#download) |
+| macOS | 支持 | [下载](https://www.termark.app/zh/#download) · [Homebrew](#homebrew-安装) |
 | Linux | 支持 | [下载](https://www.termark.app/zh/#download) |
-| iOS | Beta | [移动端介绍](https://www.termark.app/zh/blog/can-you-ssh-on-a-phone) |
-| Android | Beta | [移动端介绍](https://www.termark.app/zh/blog/can-you-ssh-on-a-phone) |
+| iOS | 已上架 App Store | [App Store](https://apps.apple.com/cn/app/termark/id6792288519) · [外区](https://apps.apple.com/us/app/termark/id6792288519) |
+| Android | Beta | [下载 APK](https://www.termark.app/zh/#download) |
 
 ## 文档与资源
 
-- [Termark 中文文档](https://www.termark.app/zh/docs/) / [English docs](https://www.termark.app/docs/)
+**使用文档**
+
+- [文档首页](https://www.termark.app/docs/) / [中文文档](https://www.termark.app/zh/docs/)
+- [SSH 端口转发：本地、远程与动态](https://www.termark.app/docs/port-forwarding)
+- [多设备加密同步](https://www.termark.app/docs/cloud-sync)
+- [X11 转发](https://www.termark.app/docs/x11-forwarding)
+- [SSH 交互式 OTP 认证](https://www.termark.app/docs/otp-interactive-auth)
+
+**更新日志**
+
 - [桌面端更新日志](https://www.termark.app/zh/changelog) / [Desktop changelog](https://www.termark.app/changelog)
 - [移动端更新日志](https://www.termark.app/zh/mobile-changelog) / [Mobile changelog](https://www.termark.app/mobile-changelog)
-- [AI SSH 客户端设计](https://www.termark.app/zh/blog/termark-ai-design)
-- [手机 SSH 使用场景](https://www.termark.app/zh/blog/can-you-ssh-on-a-phone) / [Can You SSH From a Phone?](https://www.termark.app/blog/can-you-ssh-on-a-phone)
-- [Android SSH 客户端怎么选](https://www.termark.app/zh/blog/android-ssh-client-guide) / [Android SSH Client Guide](https://www.termark.app/blog/android-ssh-client-guide)
-- [iOS SSH 客户端怎么选](https://www.termark.app/zh/blog/ios-ssh-client-guide) / [iOS SSH Client Guide](https://www.termark.app/blog/ios-ssh-client-guide)
-- [SSH 客户端怎么选](https://www.termark.app/zh/blog/ssh-client-recommendation) / [How to Choose an SSH Client](https://www.termark.app/blog/ssh-client-recommendation)
-- [Best SSH Clients in 2026 Compared](https://www.termark.app/blog/best-ssh-clients-2026)
-- [SSH 端口转发指南](https://www.termark.app/zh/blog/ssh-port-forwarding-guide)
+
+**文章**
+
+- [Best SSH Clients in 2026 Compared](https://www.termark.app/blog/best-ssh-clients-2026) — OpenSSH、Termius、WindTerm 与 Termark 的能力与取舍
+- [通过跳板机建立 SSH 隧道](https://www.termark.app/blog/ssh-tunnels-jump-host)
+- [AI SSH 客户端设计](https://www.termark.app/zh/blog/termark-ai-design) / [AI design boundaries](https://www.termark.app/blog/termark-ai-design)
 - [终端关键字高亮规则示例](highlights/example-zh.json)
+
+## Homebrew 安装
+
+macOS 用户也可以通过 Homebrew 安装：
+
+```bash
+brew install --cask termark-app/tap/termark
+```
 
 ## 反馈与支持
 
