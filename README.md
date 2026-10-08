@@ -57,7 +57,7 @@ Current behavior and availability should be verified against the [desktop change
 | Windows | 支持 | [下载](https://www.termark.app/zh/#download) |
 | macOS | 支持 | [下载](https://www.termark.app/zh/#download) · [Homebrew](#homebrew-安装) |
 | Linux | 支持 | [下载](https://www.termark.app/zh/#download) |
-| iOS | 已上架 App Store | [App Store](https://apps.apple.com/cn/app/termark/id6792288519) · [外区](https://apps.apple.com/us/app/termark/id6792288519) |
+| iOS | 已上架 App Store（需 iOS 16.4+） | [App Store](https://apps.apple.com/cn/app/termark/id6792288519) · [外区](https://apps.apple.com/us/app/termark/id6792288519) |
 | Android | Beta | [下载 APK](https://www.termark.app/zh/#download) |
 
 ## 文档与资源
